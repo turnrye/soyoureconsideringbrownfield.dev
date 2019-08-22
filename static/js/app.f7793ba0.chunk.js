@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{28:function(n,e,t){"use strict";t.d(e,"a",function(){return i});var r=t(0),a=t.n(r),o=t(3),c=t(44),u=t(19);function i(){return a.a.createElement(u.a,{style:p.container},a.a.createElement(c.a,null,"Open up App.js to start working on your app!"))}var p=o.a.create({container:{flex:1,backgroundColor:"#fff",alignItems:"center",justifyContent:"center"}})},50:function(n,e,t){n.exports=t(67)}},[[50,1,2]]]);
+//# sourceMappingURL=../../a0cbab71bd27ce4271cc.map
