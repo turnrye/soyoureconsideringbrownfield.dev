@@ -6,7 +6,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d web-build",
     "predeploy": "expo build:web"
   },
   "homepage": "https://soyoureconsideringbrownfield.dev",
@@ -15,6 +15,7 @@
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-paper": "^2.16.0",
     "react-native-web": "^0.11.4"
   },
   "devDependencies": {
