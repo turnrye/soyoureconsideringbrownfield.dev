@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "deploy": "gh-pages -d web-build",
-    "predeploy": "expo build:web"
+    "predeploy": "expo build:web && echo soyoureconsideringbrownfield.dev > web-build/CNAME"
   },
   "homepage": "https://soyoureconsideringbrownfield.dev",
   "dependencies": {
