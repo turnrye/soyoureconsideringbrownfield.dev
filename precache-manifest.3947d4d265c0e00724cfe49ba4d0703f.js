@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "e20945d7c929279ef7a6f1db184a4470",
-    "url": "/./fonts/Foundation.ttf"
+    "revision": "c6aef942e3668158ec29d4adcb2e768f",
+    "url": "/./fonts/FontAwesome5_Brands.ttf"
   },
   {
-    "revision": "a0cbab71bd27ce4271cc",
-    "url": "/static/js/app.f7793ba0.chunk.js"
+    "revision": "9531f685519bf823bda1",
+    "url": "/static/js/app.f8c63640.chunk.js"
   },
   {
     "revision": "27b8ebe8673b4b3eaf61",
     "url": "/static/js/runtime~app.f53f8695.js"
   },
   {
-    "revision": "b2e0fc821c6886fb3940f85a3320003e",
-    "url": "/./fonts/Ionicons.ttf"
+    "revision": "872545dde71de3842234bf6afe80c4cb",
+    "url": "/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "04e85b411eaa652156c15e2dbf965077",
+    "revision": "420e34fc736cbfdf64c08ba31c08a281",
     "url": "/index.html"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/serve.json"
   },
   {
-    "revision": "53896a59266eae5ff726",
-    "url": "/static/js/2.d2b63845.chunk.js"
+    "revision": "fb0a4211434254830eb3",
+    "url": "/static/js/2.2ad542d7.chunk.js"
   },
   {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/./fonts/MaterialCommunityIcons.ttf"
   },
   {
-    "revision": "872545dde71de3842234bf6afe80c4cb",
-    "url": "/./fonts/FontAwesome5_Solid.ttf"
+    "revision": "b2e0fc821c6886fb3940f85a3320003e",
+    "url": "/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "c6aef942e3668158ec29d4adcb2e768f",
-    "url": "/./fonts/FontAwesome5_Brands.ttf"
+    "revision": "e20945d7c929279ef7a6f1db184a4470",
+    "url": "/./fonts/Foundation.ttf"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
