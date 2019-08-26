@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "420e34fc736cbfdf64c08ba31c08a281",
+    "revision": "cac49db58d44efd853d3d4b79708a0da",
     "url": "/index.html"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/serve.json"
   },
   {
-    "revision": "fb0a4211434254830eb3",
-    "url": "/static/js/2.2ad542d7.chunk.js"
+    "revision": "a501d10f552c27d8c1b1",
+    "url": "/static/js/2.f192590c.chunk.js"
   },
   {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
