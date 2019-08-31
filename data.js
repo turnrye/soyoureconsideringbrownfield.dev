@@ -1,10 +1,10 @@
 const data = [
     {
-        prompt: "What kind of developers are on your team?",
+        prompt: "What kind of developers are on your team",
         answers: [
             {
                 score: -1,
-                text: "Android master race"
+                text: "Real devs use Android"
             },
             {
                 score: -1,
@@ -12,16 +12,16 @@ const data = [
             },
             {
                 score: 0,
-                text: "App developers, whatever tech necessary"
+                text: "We build apps any way"
             }
         ]
     },
     {
-        prompt: "Are you allowed to use JavaScript?",
+        prompt: "Are you allowed to use JavaScript",
         answers: [
             {
-                score: -1,
-                text: "Ivory tower hasn't blessed it yet"
+                score: -2,
+                text: "Ivory tower hasn't decided"
             },
             {
                 score: 0,
@@ -29,15 +29,15 @@ const data = [
             },
             {
                 score: 0,
-                text: "I don't take orders from nobody"
+                text: "I'm a free spirit"
             }
         ]
     },
     {
-        prompt: "Are your product folks on board?",
+        prompt: "Are your product folks on board",
         answers: [
             {
-                score: -1,
+                score: -2,
                 text: "They don't really know"
             },
             {
@@ -58,11 +58,11 @@ const data = [
                 text: "What friends"
             },
             {
-                score: 1,
+                score: 2,
                 text: "Maybe in the future"
             },
             {
-                score: 2,
+                score: 3,
                 text: "Others made 'em, we're gunna use 'em"
             }
         ]
@@ -71,11 +71,11 @@ const data = [
         prompt: "What about your design people",
         answers: [
             {
-                score: 0,
+                score: 1,
                 text: "Hey thats me!"
             },
             {
-                score: 1,
+                score: 2,
                 text: "They want us on React"
             },
             {
@@ -85,19 +85,19 @@ const data = [
         ]
     },
     {
-        prompt: "Would you share build and deploy tools?",
+        prompt: "Would you share build and deploy tools",
         answers: [
             {
                 score: 0,
                 text: "Not really"
             },
             {
-                score: -1,
+                score: 0,
                 text: "We'll have to make some ourselves"
             },
             {
                 score: 1,
-                text: "We get to use some off-the-shelf stuff"
+                text: "We get to use existing stuff"
             }
         ]
     },
@@ -127,7 +127,7 @@ const data = [
             },
             {
                 score: 0,
-                text: "We need data from native to React Native"
+                text: "Need it from native to React Native"
             },
             {
                 score: -1,
@@ -136,7 +136,7 @@ const data = [
         ]
     },
     {
-        prompt: "How are your current features?",
+        prompt: "How are your current features",
         answers: [
             {
                 score: 0,
@@ -153,11 +153,11 @@ const data = [
         ]
     },
     {
-        prompt: "What about your existing native platform architecture/infrastructure?",
+        prompt: "What about your existing native platform architecture/infrastructure",
         answers: [
             {
                 score: 0,
-                text: "Works well and is easy to understand"
+                text: "Works well and is easily understood"
             },
             {
                 score: 0,

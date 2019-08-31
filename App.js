@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, FlatList } from 'react-native';
+import { StyleSheet, FlatList, Text } from 'react-native';
 import Question from './Question.js';
 import Recommendation from './Recommendation.js';
 import data from './data.js';
@@ -13,19 +13,29 @@ export default function App() {
   };
   const renderItem = ({ item }) => (<Question answers={item.answers} addToScore={addToScore}>{item.prompt}</Question>);
   
+  const keyExtractor = item => item.prompt;
+
   return (
     <PaperProvider>
         <Appbar.Header>
           <Appbar.Content
-            title="What brownfield fit are you?"
+            title="What Stranger Things character is your brownfield app?"
           />
         </Appbar.Header>
-        <FlatList data={data} renderItem={renderItem} ListFooterComponent={<Recommendation score={score} />} />
+        <Text style={styles.introText}>
+          Depending on how you answer, your brownfield might be anywhere from monsterous to an epic fit.
+        </Text>
+        <FlatList data={data} keyExtractor={keyExtractor} renderItem={renderItem} ListFooterComponent={<Recommendation score={score} />} />
     </PaperProvider>
   );
 }
 
 const styles = StyleSheet.create({
+  introText: {
+    marginHorizontal: 16,
+    marginTop: 16,
+    fontSize: 24
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',

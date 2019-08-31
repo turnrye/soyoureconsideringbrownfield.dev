@@ -7,10 +7,10 @@ const noThreshold = -1;
 
 function recommendationCard(name, icon, color, image, narrative) {
     return (
-        <View>
+        <View >
             
             <Text style={[styles.name, styles.card]}><Ionicons name={icon} style={styles.card} size={32} color={color} /> You're {name}</Text>
-            <Image source={{uri: image}} style={[styles.card, {marginHorizontal: 0, width: 533, height: 200}]} />
+            <Image source={{uri: image}} style={[styles.card, {resizeMode: 'repeat', marginHorizontal: 0, minWidth: 533, height: 200}]} />
             <Text style={styles.card}>{narrative}</Text>
         </View>
      );
